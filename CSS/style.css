@@ -1,0 +1,45 @@
+body {
+    height: 100vh;
+    display: flex;
+}
+
+.sidebar {
+    width: 300px;
+    background-color: black;
+    overflow: scroll;
+
+}
+
+.sidebar>img {
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+section {
+    height: calc(100vh - 30px);
+    background-color: black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.about {
+    padding: 3px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about>p {
+    font-size: 15px;
+    font-weight: 700;
+    background-color: black;
+}
